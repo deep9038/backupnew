@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.firstsection {
+    height: 50vh;
+    /* background-image: url(../../../Assates/img/abboutbanerpng.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    position: relative;
+}
+
+.firstsection .imgbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.imgbg img {
+    position: relative;
+    height: inherit;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.firstsection .box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstsection .box-main .firstHalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.text-big {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(255 255 255);
+    color: black;
+}
+
+.text-small {
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 3px 3px 10px rgb(255 255 255);
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (max-width: 1354px) {
+    .imgbg img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+@media (max-width: 1270px) {
+    .text-big {
+        font-size: 50px;
+    }
+
+    .text-small {
+        font-size: 35px;
+    }
+
+    .firstsection .box-main {
+
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .firstsection {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .firstsection {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        padding-top: 30vh;
+    }
+
+    .firstsection .imgbg {
+        position: relative;
+    }
+
+    .firstsection .box-main {
+        max-width: 100%;
+        height: 100%;
+        align-items: flex-end;
+    }
+    .imgbg img {
+        height: auto;
+        width: 100%;
+    }
+
+    .text-big {
+
+        font-family: 'Roboto Mono', monospace;
+        margin: 10px;
+        font-weight: 500;
+    }
+
+    .firstsection .box-main .firstHalf {
+        width: 85%;
+        align-items: flex-start;
+    }
+
+    .text-small {
+        font-size: 30px;
+        text-align: start;
+    }
+
+    .firstsection {
+        background-image: url(../../../Assates/img/logo-no-background.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .firstsection {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 20vh;
+    }
+    .firstsection .box-main .firstHalf{
+        width: 100%;
+        align-items: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+}
+@media (max-width: 470px){
+    .firstsection{
+        padding-top: 20vh;
+    }
+    .text-big{
+        font-size: 40px;
+    }
+    .text-small{
+        font-size: 20px;
+    }
+}

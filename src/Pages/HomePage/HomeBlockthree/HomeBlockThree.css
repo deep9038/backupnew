@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+.donationfeature{
+    position: relative;
+    height: 600px;
+    width: 90%;
+    background-color: #989ae5;
+    border-radius: 10px;
+}
+.block3{
+    display: flex;
+    justify-content: center;
+}
+.onedf{
+    background-image: url(../../../Assates/img/flud.webp);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+.twodf{
+    background-image: url(../../../Assates/img/charity.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+.threedf{
+    background-image: url(../../../Assates/img/fundraise.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.cardtopic{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.cardtopic p{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.donationfeatureTextCon{
+    margin: 20px;
+    margin-top: 300px;
+}
+.donationfeatureTextCon h5{
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 30px auto;
+}
+.donationfeatureTextCon a{
+    position: absolute;
+    font-size: 20px;
+    bottom: 20px;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+}
+@media (max-width:1190px){
+    .donationfeature{
+        margin: auto;
+        width: 60%;
+    }
+}
+@media (max-width:800px){
+    .donationfeature {
+        width: 100%;
+     
+    }
+}
+@media (max-width:480px){
+    .donationfeature {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    }
+    .cardtopic{
+        left: auto;
+    }
+    .donationfeatureTextCon a{
+        left: auto;
+        right: auto;
+    }
+}

@@ -1,0 +1,30 @@
+.fundForCard {
+    display: flex;
+}
+
+.corosalcontainer{
+    width: 80% !important ;
+}
+.blocktital h2{
+    font-size: 60px;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+}
+.blocktital h3{
+    font-size: 25px !important ;
+    margin: 20px 0px !important ;
+}
+.blocktital{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+@media (max-width: 880px){
+    .fundForCard {
+        flex-direction: column;
+    }
+    .corosalcontainer {
+        width: 100% !important;
+        margin-top: 50px;
+    }
+}

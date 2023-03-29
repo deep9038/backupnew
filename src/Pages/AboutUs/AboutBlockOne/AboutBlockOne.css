@@ -1,0 +1,117 @@
+.AboutBlock1 img{
+    position: relative;
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+.AboutBlock1{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #41198780;
+    
+}
+.AboutBlock1 .About_text{
+    width: 550px;
+}
+.AboutBlock1 .main{
+    max-width:90% ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.AboutBlock1 .About_text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin: 20px 0px;
+    text-align: left;
+  
+}
+.AboutBlock1 .About_text h5{
+    color: black;
+    font-size: 25px;
+    text-transform:capitalize ;
+    margin-bottom: 25px;
+    letter-spacing:2px ;
+}
+.About_text h5 span{
+    color:#87cefa;
+}
+.AboutBlock1 .About_text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.About_text button{
+    background: #87cefa;
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 20px;
+    transition:.4s;
+}
+.About_text button:hover{
+    background: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+@media (max-width: 1330px){
+    .AboutBlock1 .About_text {
+       
+        padding-left: 60px;
+    } 
+    .AboutBlock1 .About_text h1{
+        font-size: 60px;
+    }
+}
+@media (max-width: 1190px){
+    .AboutBlock1 .main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../Assates/img/munyjar.png);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    }
+    .AboutBlock1 img{
+        margin-right: auto;
+    }
+    .AboutBlock1 .About_text{
+        width: 100%;
+    padding: 0;
+    }
+   
+}
+@media (max-width: 460px){
+    .AboutBlock1 .About_text h1{
+        font-size: 50px;
+    }
+    .AboutBlock1 img{
+        margin-top: 50%;
+    width: 100%;
+    }
+    .AboutBlock1 .main{
+        background-size: 80%;
+    background-position: top;
+    }
+}
+@media (max-width: 412px){
+    .AboutBlock1 .About_text h1{
+        font-size: 40px;
+    }
+    .AboutBlock1 .About_text h5{
+        font-size: 20px;
+    }
+    .AboutBlock1 .About_text p{
+        font-size: 14px;
+    }
+    .About_text button{
+        font-size: 14px;
+        width: 100%;
+    }
+}

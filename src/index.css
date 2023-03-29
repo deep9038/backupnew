@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+}
+body{
+  height: 100vh;
+  background-color: #bde0fe;
+  /* background-image: url("./Assates/img/hand-adding-coins-stack-covered-dirt-plants.jpg");
+  background-size: cover;
+  background-position: center; */
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.contect_us{
+    padding: 30px 0;
+    background-color: #bde0fe;
+}
+.contecctuscontainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a3f7b5;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contecctuscontainer h1{
+    text-align: start;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.contecctuscontainer p{
+    padding: 10px;
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.contact_info_sec {
+    height: 340px;
+    width: 340px;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: #a3f7b5;
+}
+.contact_info_sec h4{
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info_single{
+    margin: 30px 0px;
+}
+.info_single svg{
+    position: relative;
+    fill: black;
+    margin-right: 15px;
+}
+.info_single span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.contect_us_text{
+    padding: 20px 10px;
+    background-color: #fdffb673;
+    border-radius: 20px;
+}
+@media screen and (max-width: 1000px){
+    .contecctuscontainer h1{
+        font-size: 30px;
+    }
+    .contecctuscontainer p {
+       font-size:20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .contecctuscontainer h1{
+        font-size: 25px;
+    }
+    .contecctuscontainer p {
+       font-size:15px;
+    }
+}
+@media screen and (max-width: 700px){
+    .contecctuscontainer{
+        flex-direction: column;
+    }
+    .contact_info_sec{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 384px){
+    .contact_info_sec{
+        padding: 10px;
+        margin: auto;
+    }
+}
