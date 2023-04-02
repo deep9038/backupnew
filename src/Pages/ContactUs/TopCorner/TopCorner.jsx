@@ -8,7 +8,7 @@ const TopCorner = () => {
     <div className="contect_us">
       <div className="contecctuscontainer">
         <div className="contect_us_text" >
-        <h1>CONTECT US</h1>
+        <h1>CONTACT US</h1>
         <p>
           Feel Free to contact us any time. We will get back to you as soon as
           we can!.

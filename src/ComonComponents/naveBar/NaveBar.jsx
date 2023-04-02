@@ -18,8 +18,8 @@ const NaveBar = () => {
       <ul className='header_links '>
           <li> <Link to="/"> Home </Link> </li>
           <li> <Link to="/about_us"> About Us </Link> </li>
-          <li> <Link to="/contact_us"> Contect Us </Link> </li>
-          <li> <Link to="/service"> servies </Link> </li>
+          <li> <Link to="/contact_us"> Contact Us </Link> </li>
+          <li> <Link to="/services">service</Link> </li>
       </ul>
       <Link to="/" className='action_btn' > Start Funding </Link>
       <div className="toggle_btn" onClick={()=>setToggelButton(!toggelbutton)}>
@@ -30,8 +30,8 @@ const NaveBar = () => {
     <div className={toggelbutton ? "dropdown_menu open":"dropdown_menu"}>
       <li><Link to="/" > Home</Link></li>
       <li> <Link to="/about_us"> About Us </Link> </li>
-      <li> <Link to="/contact_us"> Contect Us </Link> </li>
-      <li> <Link to="/service"> servies </Link> </li>
+      <li> <Link to="/contact_us">  Contact Us </Link> </li>
+      <li> <Link to="/services">service</Link> </li>
       <li> <Link to="/" className='action_btn' > Start Funding </Link></li>
     </div>
   </header>
