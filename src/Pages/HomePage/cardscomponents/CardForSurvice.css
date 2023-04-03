@@ -221,6 +221,10 @@
     transition-delay: 0.75s;
     
   }
+
+
+
+
   @media (max-width: 548px) {
     .container .card{
       width: 284px;
